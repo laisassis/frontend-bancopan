@@ -12,7 +12,6 @@ import { CadastroModalComponent } from './cadastro-modal/cadastro-modal.componen
 })
 export class AppComponent {
 
-  public usuariosSave: Usuarios[] = [];
   
 
   constructor(public auth: AuthService) { }
